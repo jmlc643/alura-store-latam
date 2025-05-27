@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f245935c27edba2bc3754b6e2572ca5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f245935c27edba2bc3754b6e2572ca5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f245935c27edba2bc3754b6e2572ca5 = L.map(
+                "map_0f245935c27edba2bc3754b6e2572ca5",
+                {
+                    center: [4.5709, -74.2973],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_24015a584f1d3cafb3c97671407e78f0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_24015a584f1d3cafb3c97671407e78f0.addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+            var circle_marker_9ff4f411da107498f1e4a9e6c0ebc148 = L.circleMarker(
+                [-4.21528, -69.94056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.32, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_074d8b9b686a9249a2f340e377b84e53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa0fcc3184be101ee4acb73dcf45f80d = $(`<div id="html_fa0fcc3184be101ee4acb73dcf45f80d" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Leticia<br>             <b>Ventas:</b> 32<br>             <b>Ingresos Totales:</b> $14669800.0<br>             <b>Costo de Envío Promedio:</b> $24450.00<br>             <b>Calificación Promedio:</b> 4.16 estrellas         </div>`)[0];
+                popup_074d8b9b686a9249a2f340e377b84e53.setContent(html_fa0fcc3184be101ee4acb73dcf45f80d);
+            
+        
+
+        circle_marker_9ff4f411da107498f1e4a9e6c0ebc148.bindPopup(popup_074d8b9b686a9249a2f340e377b84e53)
+        ;
+
+        
+    
+    
+            var circle_marker_c2d71ac1289d780f8dd4f0bbea828fe8 = L.circleMarker(
+                [1.21361, -77.28111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.23, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_ace4231780c4bc0251a979a3a7122b4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2be48846e845c1a79999e0c1c7d6384 = $(`<div id="html_e2be48846e845c1a79999e0c1c7d6384" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Pasto<br>             <b>Ventas:</b> 23<br>             <b>Ingresos Totales:</b> $14996400.0<br>             <b>Costo de Envío Promedio:</b> $35078.26<br>             <b>Calificación Promedio:</b> 4.04 estrellas         </div>`)[0];
+                popup_ace4231780c4bc0251a979a3a7122b4e.setContent(html_e2be48846e845c1a79999e0c1c7d6384);
+            
+        
+
+        circle_marker_c2d71ac1289d780f8dd4f0bbea828fe8.bindPopup(popup_ace4231780c4bc0251a979a3a7122b4e)
+        ;
+
+        
+    
+    
+            var circle_marker_d519f74457f01c811d4d3eafecc7f796 = L.circleMarker(
+                [2.9273, -75.28189],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.06, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_3edb1f5e38917fc8b89fa3a2159834c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_907a51a272904fbf9ab6e36f637c3c4c = $(`<div id="html_907a51a272904fbf9ab6e36f637c3c4c" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Neiva<br>             <b>Ventas:</b> 6<br>             <b>Ingresos Totales:</b> $3494000.0<br>             <b>Costo de Envío Promedio:</b> $31516.67<br>             <b>Calificación Promedio:</b> 4.50 estrellas         </div>`)[0];
+                popup_3edb1f5e38917fc8b89fa3a2159834c1.setContent(html_907a51a272904fbf9ab6e36f637c3c4c);
+            
+        
+
+        circle_marker_d519f74457f01c811d4d3eafecc7f796.bindPopup(popup_3edb1f5e38917fc8b89fa3a2159834c1)
+        ;
+
+        
+    
+    
+            var circle_marker_7cc60ca51f3a96cef21e88353d67ab03 = L.circleMarker(
+                [3.43722, -76.5225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.83, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_9df2b5f944f2d19dc9d209b8a588e5a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_226b7b535569d594370c45a0075502d1 = $(`<div id="html_226b7b535569d594370c45a0075502d1" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Cali<br>             <b>Ventas:</b> 283<br>             <b>Ingresos Totales:</b> $154493700.0<br>             <b>Costo de Envío Promedio:</b> $28827.56<br>             <b>Calificación Promedio:</b> 3.99 estrellas         </div>`)[0];
+                popup_9df2b5f944f2d19dc9d209b8a588e5a8.setContent(html_226b7b535569d594370c45a0075502d1);
+            
+        
+
+        circle_marker_7cc60ca51f3a96cef21e88353d67ab03.bindPopup(popup_9df2b5f944f2d19dc9d209b8a588e5a8)
+        ;
+
+        
+    
+    
+            var circle_marker_0d876a240e97235d857a45bf9410d79c = L.circleMarker(
+                [3.8653, -67.9239],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_765657e229028163653a96966eb4c298 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20a71991bc8a253f8d22ce4b488366f3 = $(`<div id="html_20a71991bc8a253f8d22ce4b488366f3" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Inírida<br>             <b>Ventas:</b> 5<br>             <b>Ingresos Totales:</b> $2722500.0<br>             <b>Costo de Envío Promedio:</b> $28460.00<br>             <b>Calificación Promedio:</b> 4.00 estrellas         </div>`)[0];
+                popup_765657e229028163653a96966eb4c298.setContent(html_20a71991bc8a253f8d22ce4b488366f3);
+            
+        
+
+        circle_marker_0d876a240e97235d857a45bf9410d79c.bindPopup(popup_765657e229028163653a96966eb4c298)
+        ;
+
+        
+    
+    
+            var circle_marker_686a98c09cc88086a429fa26a819f95a = L.circleMarker(
+                [4.142, -73.62664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.11, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_f59ae8a9478202a4ecc0615fe6d34ba9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff559699a625feaa1b7c193ed7ed6eda = $(`<div id="html_ff559699a625feaa1b7c193ed7ed6eda" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Villavicencio<br>             <b>Ventas:</b> 11<br>             <b>Ingresos Totales:</b> $7161900.0<br>             <b>Costo de Envío Promedio:</b> $34709.09<br>             <b>Calificación Promedio:</b> 4.09 estrellas         </div>`)[0];
+                popup_f59ae8a9478202a4ecc0615fe6d34ba9.setContent(html_ff559699a625feaa1b7c193ed7ed6eda);
+            
+        
+
+        circle_marker_686a98c09cc88086a429fa26a819f95a.bindPopup(popup_f59ae8a9478202a4ecc0615fe6d34ba9)
+        ;
+
+        
+    
+    
+            var circle_marker_5e85a8cd5dd4b8a38c56848973792b6c = L.circleMarker(
+                [4.53389, -75.68111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.14, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_d3ba8797ee32c88597c84ce7dad339cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2432ddcf5bb9a7fae1a1882c6a320c5b = $(`<div id="html_2432ddcf5bb9a7fae1a1882c6a320c5b" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Armenia<br>             <b>Ventas:</b> 14<br>             <b>Ingresos Totales:</b> $4615700.0<br>             <b>Costo de Envío Promedio:</b> $17314.29<br>             <b>Calificación Promedio:</b> 3.36 estrellas         </div>`)[0];
+                popup_d3ba8797ee32c88597c84ce7dad339cc.setContent(html_2432ddcf5bb9a7fae1a1882c6a320c5b);
+            
+        
+
+        circle_marker_5e85a8cd5dd4b8a38c56848973792b6c.bindPopup(popup_d3ba8797ee32c88597c84ce7dad339cc)
+        ;
+
+        
+    
+    
+            var circle_marker_9c13e182e2ebf971c894e3316d5ab850 = L.circleMarker(
+                [4.57937, -74.21682],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_2a3c1757ac325df0caabb10cbbd676ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_471e14f8f29ca551dca5c1ae57d308cb = $(`<div id="html_471e14f8f29ca551dca5c1ae57d308cb" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Soacha<br>             <b>Ventas:</b> 5<br>             <b>Ingresos Totales:</b> $4126000.0<br>             <b>Costo de Envío Promedio:</b> $43420.00<br>             <b>Calificación Promedio:</b> 4.60 estrellas         </div>`)[0];
+                popup_2a3c1757ac325df0caabb10cbbd676ad.setContent(html_471e14f8f29ca551dca5c1ae57d308cb);
+            
+        
+
+        circle_marker_9c13e182e2ebf971c894e3316d5ab850.bindPopup(popup_2a3c1757ac325df0caabb10cbbd676ad)
+        ;
+
+        
+    
+    
+            var circle_marker_7fd8aaa36f2c5d35774869b78de39084 = L.circleMarker(
+                [4.60971, -74.08175],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.84, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_f3867a10044ebc852d670ec7da2f92f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99c98b504099a980f4837ccbce4c2f85 = $(`<div id="html_99c98b504099a980f4837ccbce4c2f85" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Bogotá<br>             <b>Ventas:</b> 984<br>             <b>Ingresos Totales:</b> $440005000.0<br>             <b>Costo de Envío Promedio:</b> $23815.85<br>             <b>Calificación Promedio:</b> 4.09 estrellas         </div>`)[0];
+                popup_f3867a10044ebc852d670ec7da2f92f1.setContent(html_99c98b504099a980f4837ccbce4c2f85);
+            
+        
+
+        circle_marker_7fd8aaa36f2c5d35774869b78de39084.bindPopup(popup_f3867a10044ebc852d670ec7da2f92f1)
+        ;
+
+        
+    
+    
+            var circle_marker_e9371881bb38cb015204fc7ced195569 = L.circleMarker(
+                [4.81333, -75.69611],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.33, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_07e77ced665fee834486fc4bee5685a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87d77e33fbb07b392bde525df1ce330d = $(`<div id="html_87d77e33fbb07b392bde525df1ce330d" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Pereira<br>             <b>Ventas:</b> 133<br>             <b>Ingresos Totales:</b> $56214300.0<br>             <b>Costo de Envío Promedio:</b> $22403.76<br>             <b>Calificación Promedio:</b> 3.95 estrellas         </div>`)[0];
+                popup_07e77ced665fee834486fc4bee5685a7.setContent(html_87d77e33fbb07b392bde525df1ce330d);
+            
+        
+
+        circle_marker_e9371881bb38cb015204fc7ced195569.bindPopup(popup_07e77ced665fee834486fc4bee5685a7)
+        ;
+
+        
+    
+    
+            var circle_marker_9793b395d84f39d719166f4f44624f82 = L.circleMarker(
+                [5.06889, -75.51738],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.15, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_bd36db56dbb9a875a2e9225313aae4d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89775e1989b625dc55f54ae94a2d03b3 = $(`<div id="html_89775e1989b625dc55f54ae94a2d03b3" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Manizales<br>             <b>Ventas:</b> 15<br>             <b>Ingresos Totales:</b> $8027600.0<br>             <b>Costo de Envío Promedio:</b> $29140.00<br>             <b>Calificación Promedio:</b> 3.80 estrellas         </div>`)[0];
+                popup_bd36db56dbb9a875a2e9225313aae4d9.setContent(html_89775e1989b625dc55f54ae94a2d03b3);
+            
+        
+
+        circle_marker_9793b395d84f39d719166f4f44624f82.bindPopup(popup_bd36db56dbb9a875a2e9225313aae4d9)
+        ;
+
+        
+    
+    
+            var circle_marker_5bc1305882a2a6614d93da959283efe8 = L.circleMarker(
+                [6.25184, -75.56359],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.63, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_5128a90567f0bebb6edcabf517821478 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a638ea3bdb006a2d2bccc1220c238b62 = $(`<div id="html_a638ea3bdb006a2d2bccc1220c238b62" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Medellín<br>             <b>Ventas:</b> 563<br>             <b>Ingresos Totales:</b> $296858100.0<br>             <b>Costo de Envío Promedio:</b> $28207.10<br>             <b>Calificación Promedio:</b> 3.87 estrellas         </div>`)[0];
+                popup_5128a90567f0bebb6edcabf517821478.setContent(html_a638ea3bdb006a2d2bccc1220c238b62);
+            
+        
+
+        circle_marker_5bc1305882a2a6614d93da959283efe8.bindPopup(popup_5128a90567f0bebb6edcabf517821478)
+        ;
+
+        
+    
+    
+            var circle_marker_44a2bc3228256904a271067bd5df6030 = L.circleMarker(
+                [7.12539, -73.1198],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.31, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_6710d9ec8ff2d2a7c60b645653a87e34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38b0e319716c5debb7645b1a61cb8bcc = $(`<div id="html_38b0e319716c5debb7645b1a61cb8bcc" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Bucaramanga<br>             <b>Ventas:</b> 31<br>             <b>Ingresos Totales:</b> $17579200.0<br>             <b>Costo de Envío Promedio:</b> $30587.10<br>             <b>Calificación Promedio:</b> 4.39 estrellas         </div>`)[0];
+                popup_6710d9ec8ff2d2a7c60b645653a87e34.setContent(html_38b0e319716c5debb7645b1a61cb8bcc);
+            
+        
+
+        circle_marker_44a2bc3228256904a271067bd5df6030.bindPopup(popup_6710d9ec8ff2d2a7c60b645653a87e34)
+        ;
+
+        
+    
+    
+            var circle_marker_1159eda09903093692ec26e1b5847ca6 = L.circleMarker(
+                [7.89391, -72.50782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.51, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_7569e0d5d2d0f0ca347191aca538ae2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32429bb44361650344a911c39a4f4b7b = $(`<div id="html_32429bb44361650344a911c39a4f4b7b" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Cúcuta<br>             <b>Ventas:</b> 51<br>             <b>Ingresos Totales:</b> $37879500.0<br>             <b>Costo de Envío Promedio:</b> $40129.41<br>             <b>Calificación Promedio:</b> 3.88 estrellas         </div>`)[0];
+                popup_7569e0d5d2d0f0ca347191aca538ae2e.setContent(html_32429bb44361650344a911c39a4f4b7b);
+            
+        
+
+        circle_marker_1159eda09903093692ec26e1b5847ca6.bindPopup(popup_7569e0d5d2d0f0ca347191aca538ae2e)
+        ;
+
+        
+    
+    
+            var circle_marker_4aa9fea815abd2227c1e52ee07cfe902 = L.circleMarker(
+                [10.39972, -75.51444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.53, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_79c9ef7958216a0cccf5ff5f59a01b78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e96cf6b7e883f0806eaff99c5526bed2 = $(`<div id="html_e96cf6b7e883f0806eaff99c5526bed2" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Cartagena<br>             <b>Ventas:</b> 53<br>             <b>Ingresos Totales:</b> $22296700.0<br>             <b>Costo de Envío Promedio:</b> $22624.53<br>             <b>Calificación Promedio:</b> 4.04 estrellas         </div>`)[0];
+                popup_79c9ef7958216a0cccf5ff5f59a01b78.setContent(html_e96cf6b7e883f0806eaff99c5526bed2);
+            
+        
+
+        circle_marker_4aa9fea815abd2227c1e52ee07cfe902.bindPopup(popup_79c9ef7958216a0cccf5ff5f59a01b78)
+        ;
+
+        
+    
+    
+            var circle_marker_a75783f62db974cef92f6b0c5cd3c8ef = L.circleMarker(
+                [10.46314, -73.25322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_3dab94c9cfe8b7ab3fd4d0f26e0af110 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f33b2c72559fb03d69f54307701ef597 = $(`<div id="html_f33b2c72559fb03d69f54307701ef597" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Valledupar<br>             <b>Ventas:</b> 3<br>             <b>Ingresos Totales:</b> $1121300.0<br>             <b>Costo de Envío Promedio:</b> $18766.67<br>             <b>Calificación Promedio:</b> 2.67 estrellas         </div>`)[0];
+                popup_3dab94c9cfe8b7ab3fd4d0f26e0af110.setContent(html_f33b2c72559fb03d69f54307701ef597);
+            
+        
+
+        circle_marker_a75783f62db974cef92f6b0c5cd3c8ef.bindPopup(popup_3dab94c9cfe8b7ab3fd4d0f26e0af110)
+        ;
+
+        
+    
+    
+            var circle_marker_c02eab8b998bb80c8e1e2aaabf426638 = L.circleMarker(
+                [10.96854, -74.78132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.75, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_f676c66b67fa914c0dfe2e59ec85a5c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7379bf99bde9604c53661c4a05625c5 = $(`<div id="html_e7379bf99bde9604c53661c4a05625c5" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Barranquilla<br>             <b>Ventas:</b> 75<br>             <b>Ingresos Totales:</b> $32907700.0<br>             <b>Costo de Envío Promedio:</b> $23708.00<br>             <b>Calificación Promedio:</b> 3.57 estrellas         </div>`)[0];
+                popup_f676c66b67fa914c0dfe2e59ec85a5c2.setContent(html_e7379bf99bde9604c53661c4a05625c5);
+            
+        
+
+        circle_marker_c02eab8b998bb80c8e1e2aaabf426638.bindPopup(popup_f676c66b67fa914c0dfe2e59ec85a5c2)
+        ;
+
+        
+    
+    
+            var circle_marker_e08e29de4bfff2897fc4c988d5f47521 = L.circleMarker(
+                [11.24079, -74.19904],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.32, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_8219c9d9986995aeffd9db072484c28a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fa36caf603cec0eb898b2ea709e81a6 = $(`<div id="html_1fa36caf603cec0eb898b2ea709e81a6" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Santa Marta<br>             <b>Ventas:</b> 32<br>             <b>Ingresos Totales:</b> $13198300.0<br>             <b>Costo de Envío Promedio:</b> $22593.75<br>             <b>Calificación Promedio:</b> 3.75 estrellas         </div>`)[0];
+                popup_8219c9d9986995aeffd9db072484c28a.setContent(html_1fa36caf603cec0eb898b2ea709e81a6);
+            
+        
+
+        circle_marker_e08e29de4bfff2897fc4c988d5f47521.bindPopup(popup_8219c9d9986995aeffd9db072484c28a)
+        ;
+
+        
+    
+    
+            var circle_marker_03ce50a6e9514f5987efac0ccefc7dfb = L.circleMarker(
+                [11.54444, -72.90722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4, "stroke": true, "weight": 3}
+            ).addTo(map_0f245935c27edba2bc3754b6e2572ca5);
+        
+    
+        var popup_3a09f63448790d0c51f658dcebe5516c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_665a810877022d61379a7a5b88d7a93d = $(`<div id="html_665a810877022d61379a7a5b88d7a93d" style="width: 100.0%; height: 100.0%;">             <b>Lugar de Compra:</b> Riohacha<br>             <b>Ventas:</b> 40<br>             <b>Ingresos Totales:</b> $18512700.0<br>             <b>Costo de Envío Promedio:</b> $24357.50<br>             <b>Calificación Promedio:</b> 3.45 estrellas         </div>`)[0];
+                popup_3a09f63448790d0c51f658dcebe5516c.setContent(html_665a810877022d61379a7a5b88d7a93d);
+            
+        
+
+        circle_marker_03ce50a6e9514f5987efac0ccefc7dfb.bindPopup(popup_3a09f63448790d0c51f658dcebe5516c)
+        ;
+
+        
+    
+</script>
+</html>
