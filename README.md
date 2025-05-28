@@ -42,16 +42,15 @@ Para ejecutar este proyecto, necesitarás lo siguiente:
 
 - Python 3.8 o superior
 - Bibliotecas de Python instaladas:
-  - `reflex`
   - `pandas`
-  - `plotly`
+  - `matplotlib`
   - `folium`
   - `fpdf`
 
 Puedes instalar las dependencias usando el archivo `requirements.txt` (si está disponible) o manualmente:
 
 ```bash
-pip install reflex pandas plotly folium fpdf
+pip install pandas matplotlib folium fpdf
 ```
 
 ## Instalación
@@ -65,19 +64,15 @@ cd alura-store-latam
 ```bash
 pip install -r requirements.txt
 ```
-3. Ejecuta la aplicación:
-```bash
-reflex run
-```
 
 ## Uso
 
-1. Abre la aplicación en tu navegador (normalmente en `http://localhost:3000`).
+1. Ejecuta el notebook `AluraStoreLatam.ipynb` en tu entorno de Jupyter Notebook o IDE preferido.
 2. Explora los gráficos y visualizaciones: 
     - **Ingresos Totales :** Gráfico de barras con los ingresos de cada tienda.
     - **Calificaciones Promedio :** Gráfico de dispersión con las calificaciones de los clientes.
     - **Distribución Geográfica de Ventas :** Mapa de calor con las ubicaciones de las ventas.
-3. Descarga el informe PDF haciendo clic en el botón "Descargar Informe PDF".
+3. Genera el informe PDF directamente desde el notebook o usando el script proporcionado.
 
 ## Estructura del Proyecto
 
@@ -116,3 +111,7 @@ El informe se genera automáticamente al hacer clic en el botón "Descargar Info
 3. Realiza tus cambios y haz commit (`git commit -m "Añadir nueva funcionalidad"`).
 4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
 5. Abre un pull request.
+
+## Nota Final
+
+Si tienes preguntas o sugerencias sobre este proyecto, no dudes en contactarme. ¡Espero que este análisis sea útil para ti!
