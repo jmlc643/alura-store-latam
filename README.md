@@ -85,10 +85,10 @@ El proyecto está organizado de la siguiente manera:
 
 ```
 alura-store-latam/
-├── app.py                  # Archivo principal de la aplicación Reflex
 ├── requirements.txt        # Dependencias del proyecto
 ├── mapa_ventas.html        # Mapa de calor generado dinámicamente
 ├── informe_final_alura_store_latam.pdf  # Informe PDF generado
+├── AluraStoreLatam.ipynb  # Notebook de Jupiter donde se encuentra el flujo del proyecto
 └── README.md               # Documentación del proyecto
 ```
 
